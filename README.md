@@ -1,7 +1,7 @@
 # Lem-in with visualizer by Ivasyshyn Serzh
 Subject: https://github.com/Ivasyshyn/Filler/blob/master/lem-in.pdf
 
-<img src="https://github.com/Ivasyshyn/Filler/blob/master/gif3.gif"></img>
+<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif3.gif"></img>
 
 ./lem-in -help
 
@@ -57,7 +57,7 @@ L35-END L36-END L38-B*2 L39-A*2 L40-END L41-B*1 L42-A*1
 L38-END L39-END L41-B*2 L42-A*2
 L41-END L42-END
 
-<img src="https://github.com/Ivasyshyn/Filler/blob/master/gif1.gif"></img>
+<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif1.gif"></img>
 
 2. How to use extra commands?
 For instance, add "##detailed_mode 1" to display extra info.
@@ -97,11 +97,11 @@ L35-END L36-END L38-B*2 L39-A*2 L40-END L41-B*1 L42-A*1
 L38-END L39-END L41-B*2 L42-A*2
 L41-END L42-END
 
---------------
+"--------------"
 Steps: 16
---------------
+"--------------"
 Data:
---------------
+"--------------"
 Type: Ants, command: (null), tab: 42
 Type: Comment, command: (null), tab: ##detailed_mode 1
 Type: Command, command: (null), tab: ##start
@@ -119,27 +119,27 @@ Type: Link, command: (null), tab: B*1-B*2
 Type: Link, command: (null), tab: START-END
 Type: Link, command: (null), tab: A*2-END
 Type: Link, command: (null), tab: B*2-END
---------------
+"--------------"
 Links:
---------------
+"--------------"
 Room START links: END B*1 A*1
 Room END links: B*2 A*2 START
 Room A*1 links: A*2 START
 Room B*1 links: B*2 START
 Room A*2 links: END A*1
 Room B*2 links: END B*1
---------------
+"--------------"
 All roads: [Shortest: 1]
---------------
+"--------------"
 Distance: 1
 START-END
 Distance: 3
 START-B*1-B*2-END
 Distance: 3
 START-A*1-A*2-END
---------------
+"--------------"
 Open roads: [Shortest: 1]
---------------
+"--------------"
 Distance: 1
 START-END
 Distance: 3
@@ -147,7 +147,7 @@ START-B*1-B*2-END
 Distance: 3
 START-A*1-A*2-END
 
-<img src="https://github.com/Ivasyshyn/Filler/blob/master/gif2.gif"></img>
+<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif2.gif"></img>
 
 3. How to turn on visualizer?
 You can either compile Makefile with "make video" and use the extra command "##video 1" or use this line: ./lem-in < data.map | video/video
