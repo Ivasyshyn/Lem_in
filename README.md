@@ -1,22 +1,20 @@
 # Lem-in with visualizer by Ivasyshyn Serzh
 Subject: https://github.com/Ivasyshyn/Filler/blob/master/lem-in.pdf
 
-<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif3.gif"></img>
+<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif1.gif"></img>
 
 ./lem-in -help<br />
 
 Available commands:<br />
 
 ##use_strict    0 or 1 (1 by default).<br />
-
-  Used to turn off/on using the strict data input rules.<br />
+  Used to turn off/on using the strict data input rules.
 
 ##detailed_mode 0 or 1 (0 by default).<br />
-
-  Used to turn on/off showing extra information.<br />
+  Used to turn on/off showing extra information.
 
 ##enough_data   0 or 1 (1 by default).<br />
-  Used to turn on/off stopping the program even if there is enough data.<br />
+  Used to turn on/off stopping the program even if there is enough data.
 
 ##link_sign     '-', '_', or '<' ('-' by default).<br />
   Used to set a sign which is used to define room links.<br />
@@ -60,7 +58,7 @@ L35-END L36-END L38-B*2 L39-A*2 L40-END L41-B*1 L42-A*1<br />
 L38-END L39-END L41-B*2 L42-A*2<br />
 L41-END L42-END<br />
 
-<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif1.gif"></img>
+<img src="https://github.com/Ivasyshyn/Lem_in/blob/master/gif3.gif"></img>
 
 2. How to use extra commands?<br />
 For instance, add "##detailed_mode 1" to display extra info.<br />
